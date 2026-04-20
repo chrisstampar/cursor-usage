@@ -6,7 +6,7 @@ This file provides context for new sessions/agents working on the `cursor-usage-
 - **April 19, 2026**: GitHub publication prep.
   - Expanded `.gitignore` (`.venv`, caches, etc.).
   - Added `SECURITY.md`, `CONTRIBUTING.md`; README updated (disclaimer, renewal feature, publish steps).
-  - `git init` + initial commit when preparing the repo (run locally if not already done).
+  - Initialized git on `main` with an initial commit (ready for `git remote add` / `git push`).
 - **April 18, 2026**: Initial creation of the application.
   - Implemented `src/app.py` using `rumps` and `urllib` to hit the `api2.cursor.sh` DashboardService endpoint.
   - Used read-only SQLite connections to avoid WAL locks when reading `cursorAuth/accessToken`.
