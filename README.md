@@ -23,11 +23,11 @@ This project is **not** affiliated with Cursor. It uses endpoints and local stor
 
 ## Install from source
 
-1. **Clone** (replace `OWNER` and repo name with yours):
+1. **Clone**
 
    ```bash
-   git clone https://github.com/OWNER/cursor_usage.git
-   cd cursor_usage
+   git clone https://github.com/chrisstampar/cursor-usage.git
+   cd cursor-usage
    ```
 
 2. **Virtual environment & dependencies**
@@ -80,23 +80,6 @@ Quit from the menu or stop the process from Activity Monitor if you run it twice
   `~/Library/Application Support/Cursor/User/globalStorage/state.vscdb` (read-only SQLite URI).
 - It sends that token only to **https://api2.cursor.sh** (TLS verification on) for usage JSON.
 - See [SECURITY.md](SECURITY.md) for how to report issues.
-
-## Publish this repo on GitHub
-
-1. Create a **new empty** repository on GitHub (no README/license if you want a clean first push, or allow merge—either is fine).
-2. From this folder:
-
-   ```bash
-   git init
-   git add -A
-   git status   # sanity check
-   git commit -m "Initial commit: Cursor usage menu bar app"
-   git branch -M main
-   git remote add origin https://github.com/OWNER/REPO.git
-   git push -u origin main
-   ```
-
-3. On GitHub: add a short **About** description, optional **Topics** (`macos`, `menubar`, `cursor`, `python`, `rumps`), and enable **Security advisories** if you want private reports (see SECURITY.md).
 
 ## License
 
