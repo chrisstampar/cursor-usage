@@ -30,6 +30,11 @@ wheels/
 .env
 .env.*
 
+# Local-only / internal (do not publish to GitHub)
+AGENT_SESSION_CONTEXT.md
+docs/internal/
+*.local.md
+
 # macOS
 .DS_Store
 .AppleDouble

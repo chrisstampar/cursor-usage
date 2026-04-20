@@ -26,4 +26,6 @@ Thanks for your interest in improving this project.
 
 - Keep changes focused and match existing style in `src/app.py`.
 - Do not commit `venv/`, `dist/`, or `build/` (they are gitignored).
+- Do not commit machine-specific notes, agent handoff files, or internal docs: `AGENT_SESSION_CONTEXT.md`, `docs/internal/`, and `*.local.md` are intentionally ignored. Keep those only on your machine.
+- Never commit real tokens, cookies, or database copies from Cursor’s `state.vscdb`.
 - If you change behavior or dependencies, update `README.md` and `requirements.txt` as needed.
